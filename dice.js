@@ -5,7 +5,7 @@ btn.addEventListener('click', () => {
     let img = document.getElementById('image');
     let random = Math.floor(Math.random() * 6) + 1;
     
-    img.setAttribute("src", `./assets/${random}.png`);
+    img.setAttribute("src", `assets/${random}.png`);
 
 
 })
